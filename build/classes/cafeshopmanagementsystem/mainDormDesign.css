@@ -1,0 +1,92 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14 janv. 2025, 17:29:37
+    Author     : user
+*/
+.header{
+     -fx-background-color:linear-gradient(to bottom right, #098c53, #246861);
+   -fx-border-color:#fff;
+    -fx-border-width:0 0 .8px 0;
+}
+.av-form{
+    -fx-background-color: linear-gradient(to bottom right ,#0f6789, #256b5c );
+}
+.nav-btn{
+    -fx-background-color:transparent;
+    -fx-border-color:#fff;
+    -fx-border-width: .4px;
+    -fx-text-fill:#fff;
+    -fx-font-size:14px;
+    
+    
+}
+.nav-btn:hover{
+    -fx-background-color:#fff;
+    -fx-text-fill:#000;
+      
+}
+.logout{
+    -fx-background-color:#106abf;
+    -fx-padding: 5px;
+    -fx-cursor:hand;
+    -fx-background-radus:50px; 
+}
+.shadow{
+  -fx-effect:dropshadow(three-pass-box,rgba(0,0,0,0.5), 5,0,0,0);
+}
+.shadow:hover{
+      -fx-background-color:#c0dfd3;
+    -fx-text-fill:#000
+    
+}
+.white-bg{
+    -fx-background-color:#fff;
+    
+}
+.radius{
+    -fx-background-radius:8px;
+}
+.transparent{
+    -fx-background-color: transparent;
+    
+}
+.table-view{
+        -fx-background-color: transparent;
+        -fx-padding:  0;
+  -fx-background-radius:5px;
+      -fx-border-width: 1.5px;
+
+
+}
+.table-view .column-header-background{
+    -fx-background-color:linear-gradient(to bottom right, #098c53, #246861);
+
+-fx-background-insets: 0 0 0 0;
+
+}.table-view .column-header,.filter{
+            -fx-background-color: transparent;
+            -fx-size:45px;
+
+}.table-view .column-header .label{
+    -fx-text-fill: #fff;
+    
+}
+
+
+    
+.btn{
+    -fx-background-color: linear-gradient( to bottom right, #098c53, #246861);
+    -fx-cursor:hand;
+    -fx-text-fill:#fff;
+    -fx-font-size:14px;
+}
+.btn:hover
+{
+        -fx-background-color: linear-gradient( to bottom right, #0fb565, #399a8f);
+
+
+}

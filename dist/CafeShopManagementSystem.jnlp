@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="CafeShopManagementSystem.jnlp">
+  <information>
+    <title>CafeShopManagementSystem</title>
+    <vendor>user</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" java-vm-args="--module-path "C:\javafx-sdk-17\lib" --add-modules javafx.controls,javafx.fxml "  href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="CafeShopManagementSystem.jar" size="90751" download="eager" />
+    <jar href="lib\commons-compress-1.21.jar" size="1018316" download="eager" />
+    <jar href="lib\fontbox-2.0.26.jar" size="1567136" download="eager" />
+    <jar href="lib\log4j-api-2.17.2.jar" size="302511" download="eager" />
+    <jar href="lib\mysql-connector-j-9.1.0.jar" size="2597591" download="eager" />
+    <jar href="lib\pdfbox-2.0.26.jar" size="2774292" download="eager" />
+    <jar href="lib\poi-ooxml-5.2.2.jar" size="1977285" download="eager" />
+    <jar href="lib\poi-ooxml-full-5.2.2.jar" size="13060187" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="CafeShopManagementSystem" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="cafeshopmanagementsystem.CafeShopManagementSystem"  name="CafeShopManagementSystem" />
+  <update check="always"/>
+</jnlp>

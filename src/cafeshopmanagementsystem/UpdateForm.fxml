@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="cafeshopmanagementsystem.UpdateFormController"
+            prefWidth="400" prefHeight="500">
+
+    <children>
+        <VBox spacing="10" AnchorPane.topAnchor="10" AnchorPane.leftAnchor="10" AnchorPane.rightAnchor="10">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+
+            <Label text="Modifier Produit" style="-fx-font-size: 18px; -fx-font-weight: bold;" />
+
+            <GridPane hgap="10" vgap="10">
+                <columnConstraints>
+                    <ColumnConstraints halignment="RIGHT" prefWidth="100"/>
+                    <ColumnConstraints prefWidth="250"/>
+                </columnConstraints>
+
+                <rowConstraints>
+                    <RowConstraints/>
+                    <RowConstraints/>
+                    <RowConstraints/>
+                    <RowConstraints/>
+                    <RowConstraints/>
+                    <RowConstraints/>
+                </rowConstraints>
+
+                <Label text="ID Produit:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+                <TextField fx:id="idprod" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+                <Label text="Nom Produit:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+                <TextField fx:id="nameprod" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+                <Label text="Type:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+                <ComboBox fx:id="type" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+                <Label text="Stock:" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+                <TextField fx:id="stockprod" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+
+                <Label text="Prix:" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+                <TextField fx:id="prixprod" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+
+                <Label text="Status:" GridPane.rowIndex="5" GridPane.columnIndex="0"/>
+                <ComboBox fx:id="statusid" GridPane.rowIndex="5" GridPane.columnIndex="1"/>
+            </GridPane>
+
+            <HBox spacing="10" alignment="CENTER_LEFT">
+                <ImageView fx:id="imageid" fitHeight="100" fitWidth="100" preserveRatio="true" />
+                <Button fx:id="importBtn" text="Importer Image" onAction="#importImage"/>
+            </HBox>
+
+            <HBox spacing="20" alignment="CENTER" style="-fx-padding: 20 0 0 0;">
+                <Button fx:id="saveBtn" text="Enregistrer" onAction="#saveUpdate" />
+                <Button fx:id="ignoreBtn" text="Ignorer" onAction="#ignoreUpdate" />
+            </HBox>
+
+        </VBox>
+    </children>
+</AnchorPane>

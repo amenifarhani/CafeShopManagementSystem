@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="nbproject">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/nbproject/poi-ooxml-full-5.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/nbproject/log4j-api-2.17.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/nbproject/mysql-connector-j-9.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/nbproject/commons-compress-1.21.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

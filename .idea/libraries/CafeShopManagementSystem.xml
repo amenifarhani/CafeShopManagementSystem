@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="CafeShopManagementSystem">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/CafeShopManagementSystem.jar!/" />
+      <root url="jar://$PROJECT_DIR$/nbproject/mysql-connector-j-9.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
